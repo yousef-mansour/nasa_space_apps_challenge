@@ -18,7 +18,7 @@
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "Drab Cast",
+    "name": "NASA_biology",
     "description": "",
     "author": "",
     "windowWidth": 800,
@@ -74,6 +74,15 @@
         "name": "space_ship.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "spaceship_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spaceship_3.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -110,14 +119,14 @@
       "instances": [
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 783,
           "layer": "",
           "name": "space_background",
           "persistentUuid": "dbbf2a7e-0db7-427a-8304-b51f640381c9",
-          "width": 0,
-          "x": -103,
-          "y": -28,
+          "width": 1184,
+          "x": -3,
+          "y": -151,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -126,13 +135,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 126,
+          "height": 96,
           "layer": "",
           "name": "space_ship",
           "persistentUuid": "268b76fc-12f8-4fd3-82b6-32143685dbf0",
           "width": 79,
-          "x": 69,
-          "y": 133,
+          "x": 317.6520690917969,
+          "y": 503.0274353027344,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -204,10 +213,10 @@
               "shapeOffsetY": 0,
               "polygonOrigin": "Center",
               "vertices": [],
-              "density": 1,
-              "friction": 0.3,
-              "restitution": 0.1,
-              "linearDamping": 0.1,
+              "density": 0,
+              "friction": 0,
+              "restitution": 0,
+              "linearDamping": 0,
               "angularDamping": 0.1,
               "gravityScale": 0,
               "layers": 1,
@@ -225,12 +234,18 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "space_ship.png",
-                      "points": [],
+                      "image": "spaceship_3.png",
+                      "points": [
+                        {
+                          "name": "Front",
+                          "x": 618.8734741210938,
+                          "y": 399.52032470703125
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 618.8734741210938,
+                        "y": 878.0017700195312
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -275,7 +290,73 @@
                   ]
                 }
               ],
-              "actions": []
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics2::ApplyForce"
+                  },
+                  "parameters": [
+                    "space_ship",
+                    "Physics2",
+                    "(space_ship.PointX(\"Front\") - space_ship.PointX(\"origin\"))/30",
+                    "(space_ship.PointY(\"Front\") - space_ship.PointY(\"origin\"))/30",
+                    "space_ship.X()",
+                    "space_ship.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Rotate"
+                  },
+                  "parameters": [
+                    "space_ship",
+                    "-80",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Right"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Rotate"
+                  },
+                  "parameters": [
+                    "space_ship",
+                    "80",
+                    ""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
