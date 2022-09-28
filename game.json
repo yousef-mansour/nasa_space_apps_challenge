@@ -83,6 +83,88 @@
         "name": "spaceship_3.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "space_background_tile.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "space_background_tile.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "space_ship2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "space_ship2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "space_rock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "space_rock.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "earth_atmosphere.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "earth_atmosphere.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "earth.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "earth.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "black.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "black.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "astronaut.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "astronaut.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Green_Arrow_Up.svg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green_Arrow_Up.svg.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "hq-explosion-6288.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "hq-explosion-6288.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -111,27 +193,24 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7100315840058952,
+        "zoomFactor": 0.9202332559580501,
         "windowMask": false
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "ship",
+          "objects": [
+            {
+              "name": "space_ship"
+            },
+            {
+              "name": "Fire"
+            }
+          ]
+        }
+      ],
       "variables": [],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 783,
-          "layer": "",
-          "name": "space_background",
-          "persistentUuid": "dbbf2a7e-0db7-427a-8304-b51f640381c9",
-          "width": 1184,
-          "x": -3,
-          "y": -151,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": true,
@@ -140,9 +219,339 @@
           "name": "space_ship",
           "persistentUuid": "268b76fc-12f8-4fd3-82b6-32143685dbf0",
           "width": 79,
-          "x": 317.6520690917969,
-          "y": 503.0274353027344,
+          "x": 388.7820129394531,
+          "y": 321.9141540527344,
           "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 3201,
+          "layer": "",
+          "name": "space_background_tiled",
+          "persistentUuid": "7be49931-9c6d-46b8-8b29-9bfdda2fa191",
+          "width": 2972,
+          "x": -1129,
+          "y": -3667,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 415.0856018066406,
+          "layer": "",
+          "name": "space_rock",
+          "persistentUuid": "23699186-9ab5-4fce-adc8-a67304052bef",
+          "width": 439,
+          "x": 691,
+          "y": -1851,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "space_rock",
+          "persistentUuid": "a9bd1397-6cd5-488c-bdaf-a8156abfdc6f",
+          "width": 0,
+          "x": -817,
+          "y": -2591,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 151,
+          "layer": "",
+          "name": "space_rock",
+          "persistentUuid": "08da9ea8-9797-48eb-99ed-4112a8cb5443",
+          "width": 159.6995849609375,
+          "x": 276,
+          "y": -1498,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 106,
+          "layer": "",
+          "name": "space_rock",
+          "persistentUuid": "2dff558c-f844-4f5b-a6d3-f03fce6528da",
+          "width": 112.10699462890625,
+          "x": -574.1069946289062,
+          "y": -1504,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 106,
+          "layer": "",
+          "name": "space_rock",
+          "persistentUuid": "626e9daa-b694-41de-8d54-ccfcc4d8c9a7",
+          "width": 112.10699462890625,
+          "x": 310,
+          "y": -2887,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1080,
+          "layer": "",
+          "name": "earth_background",
+          "persistentUuid": "91e163a5-6c74-49da-8418-a0832ab1aefb",
+          "width": 2980,
+          "x": -1135,
+          "y": -478,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 4259,
+          "layer": "",
+          "name": "borders",
+          "persistentUuid": "af78ebc0-0b42-4308-b353-db43cb6f3a04",
+          "width": 256,
+          "x": 1829,
+          "y": -3667,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 256,
+          "layer": "",
+          "name": "borders",
+          "persistentUuid": "92c7e584-6a6b-42ab-a3ea-faaf8d6b6206",
+          "width": 3221,
+          "x": -1120,
+          "y": -3897,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 4503,
+          "layer": "",
+          "name": "borders",
+          "persistentUuid": "6594301a-0ae2-4d8c-ab19-5ea6c9ed607c",
+          "width": 256,
+          "x": -1365,
+          "y": -3893,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 256,
+          "layer": "",
+          "name": "borders",
+          "persistentUuid": "72d19bc3-8d7b-4186-8eab-2eec047dc65e",
+          "width": 3449,
+          "x": -1365,
+          "y": 589,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "line",
+          "persistentUuid": "7ee390b1-bd00-40e5-8adb-33cdfa385b6d",
+          "width": 0,
+          "x": -1140,
+          "y": -256,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "no_gravity",
+          "persistentUuid": "69db4803-3dc5-4170-8722-bacd956f25a6",
+          "width": 0,
+          "x": -1081,
+          "y": -600,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "no_gravity",
+          "persistentUuid": "fa9b2b12-238f-4dfa-9e8b-3c502ad2c7ad",
+          "width": 0,
+          "x": -484,
+          "y": -600,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "no_gravity",
+          "persistentUuid": "8d4bf828-7611-4a49-a7d4-ef0d8c5fd3df",
+          "width": 0,
+          "x": 134,
+          "y": -600,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "no_gravity",
+          "persistentUuid": "bf1bfda6-fd09-43d6-8b69-a327a0fb77ec",
+          "width": 0,
+          "x": 860,
+          "y": -600,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Interface",
+          "name": "left_atmo",
+          "persistentUuid": "f90de7cd-b4f1-4d12-b08b-44ec6c760a0f",
+          "width": 0,
+          "x": 14,
+          "y": 14,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90.94600677490234,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fire",
+          "persistentUuid": "cc2b67d4-c3f6-4841-bef8-d102add47387",
+          "width": 0,
+          "x": 331.0479431152344,
+          "y": 246.9520721435547,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 106,
+          "layer": "",
+          "name": "space_rock",
+          "persistentUuid": "c7f62998-a6df-4d9c-9dcd-1f567d90bc9c",
+          "width": 112.10699462890625,
+          "x": 357,
+          "y": -2360,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 106,
+          "layer": "",
+          "name": "space_rock",
+          "persistentUuid": "2671b196-edc5-4939-b4f5-13795cc308ef",
+          "width": 112.10699462890625,
+          "x": 1411,
+          "y": -2500,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 135,
+          "layer": "",
+          "name": "astronaut",
+          "persistentUuid": "75ddf21f-c40d-4f4e-ab4f-3758c9f41196",
+          "width": 128.86363220214844,
+          "x": -995,
+          "y": -3484,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 38,
+          "layer": "",
+          "name": "arrow",
+          "persistentUuid": "6a372209-017f-47e2-8265-bbc58e00b33a",
+          "width": 38,
+          "x": 312,
+          "y": 105,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -156,7 +565,17 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "Brightness",
+              "name": "Effect",
+              "doubleParameters": {
+                "brightness": 0.8
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ],
           "behaviors": [],
           "animations": [
             {
@@ -233,19 +652,270 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "spaceship_3.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "space_ship2.png",
                       "points": [
                         {
                           "name": "Front",
-                          "x": 618.8734741210938,
-                          "y": 399.52032470703125
+                          "x": 563.0198364257812,
+                          "y": 340.4745178222656
+                        },
+                        {
+                          "name": "Fire",
+                          "x": 248.4812774658203,
+                          "y": 464.5198974609375
+                        },
+                        {
+                          "name": "dir",
+                          "x": 250.00146484375,
+                          "y": -134.13809204101562
                         }
                       ],
                       "originPoint": {
                         "name": "origine",
                         "x": 618.8734741210938,
                         "y": 878.0017700195312
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 320.78753662109375,
+                            "y": 55.799468994140625
+                          },
+                          {
+                            "x": 412.1217041015625,
+                            "y": 231.6177520751953
+                          },
+                          {
+                            "x": 457.7887878417969,
+                            "y": 452.342041015625
+                          },
+                          {
+                            "x": 242.392333984375,
+                            "y": 480.5034484863281
+                          },
+                          {
+                            "x": 59.7239875793457,
+                            "y": 451.5809326171875
+                          },
+                          {
+                            "x": 65.05181884765625,
+                            "y": 308.49072265625
+                          },
+                          {
+                            "x": 181.5028839111328,
+                            "y": 37.53263854980469
+                          },
+                          {
+                            "x": 269.0314636230469,
+                            "y": 0
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "additive": true,
+          "assetStoreId": "",
+          "destroyWhenNoParticles": false,
+          "emitterAngleA": 0,
+          "emitterAngleB": 1,
+          "emitterForceMax": 150,
+          "emitterForceMin": 100,
+          "flow": 100,
+          "maxParticleNb": 1000,
+          "name": "Fire",
+          "particleAlpha1": 204,
+          "particleAlpha2": 0,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": 0,
+          "particleAngle2": 0,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 51,
+          "particleBlue2": 0,
+          "particleGravityX": 0,
+          "particleGravityY": 0,
+          "particleGreen1": 51,
+          "particleGreen2": 255,
+          "particleLifeTimeMax": 2.5,
+          "particleLifeTimeMin": 0.5,
+          "particleRed1": 255,
+          "particleRed2": 255,
+          "particleSize1": 100,
+          "particleSize2": 0,
+          "particleSizeRandomness1": 0,
+          "particleSizeRandomness2": 0,
+          "rendererParam1": 10,
+          "rendererParam2": 1,
+          "rendererType": "Point",
+          "tags": "",
+          "tank": -1,
+          "textureParticleName": "",
+          "type": "ParticleSystem::ParticleEmitter",
+          "zoneRadius": 10,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "space_background_tiled",
+          "tags": "",
+          "texture": "space_background_tile.jpg",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "space_rock",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
+              "fixedRotation": true,
+              "canSleep": true,
+              "shape": "Circle",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 5,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 5,
+              "angularDamping": 0.1,
+              "gravityScale": 0,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "space_rock.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 348.91082763671875,
+                            "y": 13.238171577453613
+                          },
+                          {
+                            "x": 400.6567077636719,
+                            "y": 211.72621154785156
+                          },
+                          {
+                            "x": 420.73724365234375,
+                            "y": 303.6331481933594
+                          },
+                          {
+                            "x": 401.4290771484375,
+                            "y": 424.1161804199219
+                          },
+                          {
+                            "x": 254.68690490722656,
+                            "y": 452.6922607421875
+                          },
+                          {
+                            "x": 136.5208740234375,
+                            "y": 420.2545471191406
+                          },
+                          {
+                            "x": 78.59635925292969,
+                            "y": 298.22686767578125
+                          },
+                          {
+                            "x": 66.23912048339844,
+                            "y": 214.81553649902344
+                          },
+                          {
+                            "x": 77.05169677734375,
+                            "y": 111.3237075805664
+                          },
+                          {
+                            "x": 211.43661499023438,
+                            "y": 7.831876277923584
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "earth_background",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "earth.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -260,13 +930,396 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "borders",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "black.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "line",
+          "tags": "",
+          "type": "PrimitiveDrawing::Drawer",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "fillOpacity": 255,
+          "outlineSize": 1,
+          "outlineOpacity": 255,
+          "fillColor": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "outlineColor": {
+            "b": 5,
+            "g": 117,
+            "r": 65
+          },
+          "absoluteCoordinates": false,
+          "clearBetweenFrames": true
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "no_gravity",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "At the end of exosphere around 10000 km above earth (no gravity)",
+          "font": "",
+          "characterSize": 15,
+          "color": {
+            "b": 5,
+            "g": 117,
+            "r": 65
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "left_atmo",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "No gravity (left the earth atmosphere)",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 5,
+            "g": 117,
+            "r": 65
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "astronaut",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "astronaut.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 224.0045166015625,
+                        "y": 278.41107177734375
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "arrow",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Green_Arrow_Up",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Green_Arrow_Up.svg.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 1023.5069580078125,
+                        "y": 1576.20068359375
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "additive": true,
+          "assetStoreId": "",
+          "destroyWhenNoParticles": false,
+          "emitterAngleA": 0,
+          "emitterAngleB": 360,
+          "emitterForceMax": 1000,
+          "emitterForceMin": 100,
+          "flow": 100,
+          "maxParticleNb": 1000,
+          "name": "Fire2",
+          "particleAlpha1": 204,
+          "particleAlpha2": 0,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": 0,
+          "particleAngle2": 0,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 51,
+          "particleBlue2": 0,
+          "particleGravityX": 0,
+          "particleGravityY": 0,
+          "particleGreen1": 51,
+          "particleGreen2": 255,
+          "particleLifeTimeMax": 0.20000000298023224,
+          "particleLifeTimeMin": 0.10000000149011612,
+          "particleRed1": 255,
+          "particleRed2": 255,
+          "particleSize1": 100,
+          "particleSize2": 0,
+          "particleSizeRandomness1": 0,
+          "particleSizeRandomness2": 0,
+          "rendererParam1": 50,
+          "rendererParam2": 1,
+          "rendererType": "Point",
+          "tags": "",
+          "tank": -1,
+          "textureParticleName": "",
+          "type": "ParticleSystem::ParticleEmitter",
+          "zoneRadius": 3,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "FixCamera"
+              },
+              "parameters": [
+                "",
+                "space_ship",
+                "-1129",
+                "-3667",
+                "1836",
+                "590",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::LineV2"
+              },
+              "parameters": [
+                "line",
+                "line.X()",
+                "-317",
+                "3000",
+                "-317",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "space_ship",
+                "Physics2",
+                "space_rock",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "space_ship"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "hq-explosion-6288.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Fire2",
+                "space_ship.X()",
+                "space_ship.Y()+space_rock.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.4"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Fire2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "space_ship",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "space_ship",
+                "=",
+                "300"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "space_ship",
+                "=",
+                "300"
+              ]
+            }
+          ]
         },
         {
           "colorB": 228,
@@ -293,6 +1346,14 @@
               "actions": [
                 {
                   "type": {
+                    "value": "ParticleSystem::StartEmission"
+                  },
+                  "parameters": [
+                    "Fire"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Physics2::ApplyForce"
                   },
                   "parameters": [
@@ -302,6 +1363,31 @@
                     "(space_ship.PointY(\"Front\") - space_ship.PointY(\"origin\"))/30",
                     "space_ship.X()",
                     "space_ship.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Up"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ParticleSystem::StopEmission"
+                  },
+                  "parameters": [
+                    "Fire"
                   ]
                 }
               ]
@@ -360,6 +1446,245 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "space_ship",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosY"
+              },
+              "parameters": [
+                "space_ship",
+                ">",
+                "-478"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::GravityScale"
+              },
+              "parameters": [
+                "space_ship",
+                "Physics2",
+                "=",
+                "0.2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearDamping"
+              },
+              "parameters": [
+                "space_ship",
+                "Physics2",
+                "=",
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::Friction"
+              },
+              "parameters": [
+                "space_ship",
+                "Physics2",
+                "=",
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "left_atmo"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "space_ship",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosY"
+              },
+              "parameters": [
+                "space_ship",
+                "<",
+                "-478"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::GravityScale"
+              },
+              "parameters": [
+                "space_ship",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearDamping"
+              },
+              "parameters": [
+                "space_ship",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "left_atmo",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Fire",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Fire",
+                "=",
+                "space_ship.PointX(\"Fire\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "Fire",
+                "=",
+                "space_ship.PointY(\"Fire\")"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "space_rock",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::ApplyForceTowardPosition"
+              },
+              "parameters": [
+                "space_rock",
+                "Physics2",
+                "10",
+                "space_ship.X()",
+                "space_ship.Y()",
+                "space_rock.X()",
+                "space_rock.Y()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "arrow",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "arrow",
+                "=",
+                "space_ship.PointX(\"dir\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "arrow",
+                "=",
+                "space_ship.PointY(\"dir\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "RotateTowardPosition"
+              },
+              "parameters": [
+                "arrow",
+                "astronaut.X()",
+                "astronaut.Y()",
+                "0",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Quiz",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "space_ship",
+                    "astronaut",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "astronaut"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
@@ -383,6 +1708,17 @@
               "width": 0
             }
           ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 8165880,
+          "ambientLightColorG": 6046000,
+          "ambientLightColorR": 8001088,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Interface",
+          "visibility": true,
+          "cameras": [],
           "effects": []
         }
       ],
