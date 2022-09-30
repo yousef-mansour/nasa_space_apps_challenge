@@ -165,6 +165,157 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "mixkit-space-shuttle-rocket-ignition-start-.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "mixkit-space-shuttle-rocket-ignition-start-.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "grey.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "grey.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "exit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "exit.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "exit2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "exit2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "quiz.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "quiz.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "quiz.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "quiz.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "video-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "video-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Hazards of Human Spaceflight  Hazard 4 Gravity Fields.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Hazards of Human Spaceflight  Hazard 4 Gravity Fields.mp4",
+        "userAdded": true
+      },
+      {
+        "file": "Hazard_Gravity.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Hazard_Gravity.mp4",
+        "userAdded": true
+      },
+      {
+        "file": "D:/Game Development/Hazards of Human Spaceflight  Hazard 4 Gravity Fields.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "D:\\Game Development\\Hazards of Human Spaceflight  Hazard 4 Gravity Fields.mp4",
+        "userAdded": true
+      },
+      {
+        "file": "Hazards of Human Spaceflight  Hazard 4 Gravity Fields-1.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Hazards of Human Spaceflight  Hazard 4 Gravity Fields-1.mp4",
+        "userAdded": true
+      },
+      {
+        "file": "Hazards of Human Spaceflight  Hazard 4 Gravity Fields-12.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Hazards of Human Spaceflight  Hazard 4 Gravity Fields-12.mp4",
+        "userAdded": true
+      },
+      {
+        "file": "Space Radiation is Risky Business for the Human Body.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Space Radiation is Risky Business for the Human Body.mp4",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "video.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "video.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lab_background2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "lab_background2.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lab_background.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "lab_background.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "9503-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9503-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tigrad-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tigrad-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -184,19 +335,40 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
+        "gridWidth": 20,
+        "gridHeight": 20,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.6953609004969294,
+        "snap": true,
+        "zoomFactor": 0.9596381825489974,
         "windowMask": false
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "Quiz",
+          "objects": [
+            {
+              "name": "quiz_main_topic"
+            },
+            {
+              "name": "quiz_background"
+            },
+            {
+              "name": "exit_button_quiz"
+            },
+            {
+              "name": "quiz"
+            },
+            {
+              "name": "video"
+            }
+          ]
+        }
+      ],
       "variables": [],
       "instances": [
         {
@@ -209,7 +381,7 @@
           "width": 79,
           "x": 388.7820129394531,
           "y": 321.9141540527344,
-          "zOrder": 2,
+          "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -455,21 +627,6 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Interface",
-          "name": "left_atmo",
-          "persistentUuid": "f90de7cd-b4f1-4d12-b08b-44ec6c760a0f",
-          "width": 0,
-          "x": 4,
-          "y": 49,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 90.94600677490234,
           "customSize": false,
           "height": 0,
@@ -540,6 +697,126 @@
           "x": 312,
           "y": 105,
           "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "Interface",
+          "name": "risks",
+          "persistentUuid": "3f472fcd-9386-44c4-a610-7cc939516a1b",
+          "width": 258,
+          "x": 62,
+          "y": 60,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 38,
+          "layer": "Interface",
+          "name": "gravity",
+          "persistentUuid": "f86edd6a-e46f-41bd-b574-e616169c6f45",
+          "width": 516,
+          "x": 4,
+          "y": 20,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Interface",
+          "name": "timer",
+          "persistentUuid": "bc80ffec-a7de-4fb4-9372-aec90697fb95",
+          "width": 0,
+          "x": 736,
+          "y": 32,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 360,
+          "layer": "quiz",
+          "name": "quiz_background",
+          "persistentUuid": "0131d6e9-7796-4a4c-9a1f-f3809cc6d044",
+          "width": 500,
+          "x": 20,
+          "y": 60,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 260,
+          "layer": "quiz",
+          "name": "quiz_main_topic",
+          "persistentUuid": "74fff608-2b4a-400b-bcc3-e2c38ddcbcec",
+          "width": 500,
+          "x": 20,
+          "y": 100,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 28,
+          "layer": "quiz",
+          "name": "exit_button_quiz",
+          "persistentUuid": "4017caa2-9974-4924-854f-c62e7e3ffa38",
+          "width": 28,
+          "x": 20,
+          "y": 60,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 40,
+          "layer": "quiz",
+          "name": "quiz",
+          "persistentUuid": "8e962ad4-aa45-45ce-929e-15f0f7757fde",
+          "width": 106,
+          "x": 20,
+          "y": 380,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 39,
+          "layer": "quiz",
+          "name": "video",
+          "persistentUuid": "07367e78-22e7-4dc8-bb41-46ec78727d82",
+          "width": 40,
+          "x": 140,
+          "y": 381,
+          "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1031,27 +1308,6 @@
         },
         {
           "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "left_atmo",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "No gravity (left the earth atmosphere)",
-          "font": "",
-          "characterSize": 20,
-          "color": {
-            "b": 5,
-            "g": 117,
-            "r": 65
-          }
-        },
-        {
-          "assetStoreId": "",
           "name": "astronaut",
           "tags": "",
           "type": "Sprite",
@@ -1176,9 +1432,281 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "risks",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "[b]Kideny stones [/b] \n[b]Muscle mass loss [/b] \n[b]body fluids shifting[/b] \n[b]bones mineral desnity loss [/b] ",
+            "opacity": 255,
+            "fontSize": 20,
+            "visible": true,
+            "color": "65;117;5",
+            "fontFamily": "Arial",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "gravity",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "[b]No gravity (out of earth's atmosphere) risks are[/b]",
+            "opacity": 255,
+            "fontSize": 20,
+            "visible": true,
+            "color": "65;117;5",
+            "fontFamily": "Arial",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "time",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "[b]Time spent in space [/b]",
+            "opacity": 255,
+            "fontSize": 20,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "Arial",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "timer",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "timer",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 5,
+            "g": 117,
+            "r": 65
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "quiz_main_topic",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "The variance of gravity that astronauts will encounter is the fourth hazard of a human mission. On Mars, astronauts would need to live and work in three-eighths of Earth’s gravitational pull for up to two years. Additionally, on the six-month trek between the planets, explorers will experience total weightlessness.  \nBesides Mars and deep space there is a third gravity field that must be considered. When astronauts finally return home they will need to readapt many of the systems in their bodies to Earth’s gravity. Bones, muscles, cardiovascular system have all been impacted by years without standard gravity. To further complicate the problem, when astronauts transition from one gravity field to another, it’s usually quite an intense experience. Blasting off from the surface of a planet or a hurdling descent through an atmosphere is many times the force of gravity.\n\nResearch is being conducted to ensure that astronauts stay healthy before, during and after their mission. NASA is identifying how current and future, FDA-approved osteoporosis treatments, and the optimal timing for such therapies could be employed to mitigate the risk for astronauts developing premature osteoporosis. Adaptability training programs and improving the ability to detect relevant sensory input are being investigated to mitigate balance control issues. Research is ongoing to characterize optimal exercise prescriptions for individual astronauts, as well as defining metabolic costs of critical mission tasks they would expect to encounter on a Mars mission.\n",
+          "font": "",
+          "characterSize": 12,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "quiz_background",
+          "tags": "",
+          "texture": "grey.jpg",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "exit_button_quiz",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "exit2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "quiz",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "quiz.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "video",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "video-removebg-preview.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Gravity_Video",
+          "tags": "",
+          "type": "Video::VideoObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "opacity": 255,
+            "loop": false,
+            "volume": 100,
+            "videoResource": "Space Radiation is Risky Business for the Human Body.mp4"
+          }
         }
       ],
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Quiz"
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
@@ -1236,18 +1764,6 @@
               },
               "parameters": [
                 "space_ship"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "hq-explosion-6288.mp3",
-                "",
-                "",
-                ""
               ]
             },
             {
@@ -1489,7 +2005,15 @@
                 "value": "Cache"
               },
               "parameters": [
-                "left_atmo"
+                "risks"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "gravity"
               ]
             }
           ]
@@ -1564,16 +2088,58 @@
                 "value": "Montre"
               },
               "parameters": [
-                "left_atmo",
+                "gravity",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "risks",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "timer",
+                "=",
+                "ToString(TimerElapsedTime(\"Count Down\"))"
               ]
             }
           ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "space_ship",
+                "line",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Count Down\""
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::ForEach",
@@ -1712,11 +2278,74 @@
                     "space_rock",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Quiz",
+                    ""
+                  ]
                 }
               ]
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "exit_button_quiz",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Quiz"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "quiz",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"quiz\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -1752,6 +2381,17 @@
           "visibility": true,
           "cameras": [],
           "effects": []
+        },
+        {
+          "ambientLightColorB": 9944136,
+          "ambientLightColorG": 6046000,
+          "ambientLightColorR": 8640632,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "quiz",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
         }
       ],
       "behaviorsSharedData": [
@@ -1764,6 +2404,315 @@
           "scaleY": 100
         }
       ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "quiz",
+      "name": "quiz",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 1,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "NewVideo",
+          "tags": "",
+          "type": "Video::VideoObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "opacity": 255,
+            "loop": false,
+            "volume": 100,
+            "videoResource": "Hazard_Gravity.mp4"
+          }
+        }
+      ],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Laboratory",
+      "name": "Laboratory",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.7644999999999991,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 697.5792846679688,
+          "layer": "",
+          "name": "background",
+          "persistentUuid": "b4eed615-3723-4e13-8276-18c418681f84",
+          "width": 1242,
+          "x": 3,
+          "y": -12.57928466796875,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 187,
+          "layer": "",
+          "name": "microscope_tri",
+          "persistentUuid": "b4a18b51-09e9-4696-af6a-8c098141141e",
+          "width": 177,
+          "x": 301,
+          "y": 301,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 44.406654357910156,
+          "layer": "",
+          "name": "tardigrade",
+          "persistentUuid": "28d60002-1636-4850-8c02-a24d729a1978",
+          "width": 85,
+          "x": 322,
+          "y": 285.5933532714844,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 165,
+          "layer": "",
+          "name": "microscope_tri",
+          "persistentUuid": "8c6c2f90-c5a5-4849-9188-e5ae8ac6da9b",
+          "width": 165,
+          "x": 435,
+          "y": 299,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "background",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "lab_background.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "microscope_tri",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "9503-removebg-preview.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "tardigrade",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "tigrad-removebg-preview.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 7430424,
+          "ambientLightColorG": 150995054,
+          "ambientLightColorR": 1869182049,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
     }
   ],
   "externalEvents": [],
