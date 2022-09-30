@@ -301,21 +301,46 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "9503-removebg-preview.png",
+        "file": "9503-removebg-preview2.png",
         "kind": "image",
         "metadata": "",
-        "name": "9503-removebg-preview.png",
+        "name": "9503-removebg-preview2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tigrad-removebg-preview2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tigrad-removebg-preview2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "9503-removebg-preview3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9503-removebg-preview3.png",
         "smoothed": true,
         "userAdded": true
       },
       {
+        "file": "Water Bears under the microscope.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Water Bears under the microscope.mp4",
+        "userAdded": true
+      },
+      {
         "alwaysLoaded": false,
-        "file": "tigrad-removebg-preview.png",
+        "file": "exit3.png",
         "kind": "image",
         "metadata": "",
-        "name": "tigrad-removebg-preview.png",
+        "name": "exit3.png",
         "smoothed": true,
-        "userAdded": false
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -335,7 +360,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 20,
         "gridHeight": 20,
@@ -343,8 +368,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 0.9596381825489974,
+        "snap": false,
+        "zoomFactor": 0.1535947529297371,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2378,7 +2403,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Interface",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
@@ -2389,7 +2414,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "quiz",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         }
@@ -2495,7 +2520,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7644999999999991,
+        "zoomFactor": 1.5848785686433775,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2519,13 +2544,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 187,
+          "height": 143,
           "layer": "",
-          "name": "microscope_tri",
-          "persistentUuid": "b4a18b51-09e9-4696-af6a-8c098141141e",
-          "width": 177,
-          "x": 301,
-          "y": 301,
+          "name": "microscope1",
+          "persistentUuid": "244d96b3-f300-4f61-b2b0-6fb4cfe1e875",
+          "width": 143,
+          "x": 310,
+          "y": 342,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -2534,13 +2559,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 44.406654357910156,
+          "height": 149,
           "layer": "",
-          "name": "tardigrade",
-          "persistentUuid": "28d60002-1636-4850-8c02-a24d729a1978",
-          "width": 85,
-          "x": 322,
-          "y": 285.5933532714844,
+          "name": "microscobe2",
+          "persistentUuid": "a92303da-5397-4031-802c-37782756744f",
+          "width": 149,
+          "x": 516,
+          "y": 326,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -2549,14 +2574,29 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 165,
+          "height": 174.6252899169922,
           "layer": "",
-          "name": "microscope_tri",
-          "persistentUuid": "8c6c2f90-c5a5-4849-9188-e5ae8ac6da9b",
-          "width": 165,
-          "x": 435,
-          "y": 299,
+          "name": "tardigrade_vid",
+          "persistentUuid": "0842f718-277b-4834-a2ed-bf2c33c29725",
+          "width": 310.6875,
+          "x": 187,
+          "y": 154,
           "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 19,
+          "layer": "",
+          "name": "exit",
+          "persistentUuid": "a8b0935d-fa85-4adc-8152-c5784d7d981b",
+          "width": 19,
+          "x": 188,
+          "y": 157,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2606,7 +2646,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "microscope_tri",
+          "name": "microscope1",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -2624,7 +2664,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "9503-removebg-preview.png",
+                      "image": "9503-removebg-preview2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2665,7 +2705,104 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "tigrad-removebg-preview.png",
+                      "image": "tigrad-removebg-preview2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "microscobe2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "9503-removebg-preview3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "tardigrade_vid",
+          "tags": "",
+          "type": "Video::VideoObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "opacity": 255,
+            "loop": false,
+            "volume": 100,
+            "videoResource": "Water Bears under the microscope.mp4"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "exit",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "exit3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2687,7 +2824,143 @@
           ]
         }
       ],
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "tardigrade_vid"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "exit"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "microscope1",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "microscope1",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "tardigrade_vid",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::Play"
+              },
+              "parameters": [
+                "tardigrade_vid"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "exit",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "microscope1",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "exit",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Video::Pause"
+              },
+              "parameters": [
+                "tardigrade_vid"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "tardigrade_vid"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "exit"
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 7430424,
